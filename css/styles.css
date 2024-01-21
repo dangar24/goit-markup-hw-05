@@ -520,12 +520,12 @@ color: var(--IRIS, #4D5AE5);
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        margin-bottom: 16px;
 }
 
 .footer-form {
     display: flex;
     gap: 24px;
+    align-items: flex-end;
 }
 
 .footer-input {
@@ -540,6 +540,7 @@ color: var(--IRIS, #4D5AE5);
         line-height: 2;
         letter-spacing: 0.04em;
         color: #ffffff;
+        margin-top: 16px;
 }
 
 .footer-input::placeholder {
@@ -553,6 +554,7 @@ color: var(--IRIS, #4D5AE5);
 
 .footer-btn {
     min-width: 165px;
+    height: 40px;
     padding: 8px 24px;
     background-color: rgba(77, 90, 229, 1);
     border: none;
