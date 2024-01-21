@@ -535,7 +535,11 @@ color: var(--IRIS, #4D5AE5);
     border-radius: 4px;
         border: 1px solid var(--WHITE, #FFF);
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-        padding: 8px 16px;
+        padding-left: 16px;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        color: #ffffff;
 }
 
 .footer-input::placeholder {
@@ -548,27 +552,25 @@ color: var(--IRIS, #4D5AE5);
 }
 
 .footer-btn {
+    min-width: 165px;
     padding: 8px 24px;
     background-color: rgba(77, 90, 229, 1);
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     cursor: pointer;
-}
-
-.footer-btn-text {
-    color: #FFF;
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    border-radius: 4px;
 }
 
 .footer-btn-icon {
     fill: rgba(255, 255, 255, 1);
+    margin-left: 16px;
 }
 
 /* MODAL */
