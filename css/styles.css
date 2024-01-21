@@ -742,7 +742,7 @@ border-color: #4D5AE5;
 
 .checkbox-span {
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 16px;
     height: 16px;
