@@ -520,12 +520,14 @@ color: var(--IRIS, #4D5AE5);
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        margin-bottom: 16px;
 }
 
 .footer-form {
     display: flex;
     gap: 24px;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-input {
@@ -540,7 +542,6 @@ color: var(--IRIS, #4D5AE5);
         line-height: 2;
         letter-spacing: 0.04em;
         color: #ffffff;
-        margin-top: 16px;
 }
 
 .footer-input::placeholder {
